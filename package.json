@@ -1,0 +1,17 @@
+{
+  "name": "cypressauto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "runOnChrome": "cypress run --browser chrome",
+    "runtest" :"npm run test --"
+
+  },
+  "author": "Siddharth D",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.6.0"
+  }
+}
